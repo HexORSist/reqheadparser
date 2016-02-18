@@ -1,0 +1,33 @@
+{
+  "name": "thereqheadparser",
+  "version": "0.0.1",
+  "description": "A http request parser application",
+  "main": "server.js",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HexORSist/reqheadparser.git"
+  },
+  "authors": [
+    "Chad Schmidt <cschmidtok@gmail.com>"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HexORSist/reqheadparser"
+  },
+  "homepage": "https://github.com/HexORSist/reqheadparser",
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "cors": "^2.4.1",
+    "dotenv": "^0.4.0",
+    "errorhandler": "^1.1.1",
+    "express": "^4.8.5",
+    "lodash": "^2.4.1",
+    "ua-parser": "^0.3.5"
+  }
+}
